@@ -8,4 +8,5 @@ public interface linkedlistss {
 	void deleteFromBeginning();
 	void deleteFromEnd();
 	void deleteFromPosition(int position);
+	void printList(int position);
 }

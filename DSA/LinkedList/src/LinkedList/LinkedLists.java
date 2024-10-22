@@ -95,4 +95,17 @@ public class LinkedLists implements linkedlistss{
 		previous.next = current.next;
 	}
 
-}
+		@Override
+		public void printList(int position) {
+			Node current = head;
+			for(int i=0; i<position; i++) {
+				System.out.println(current.data);
+				current = current.next;
+			}
+		
+	}
+
+		
+	}
+
+

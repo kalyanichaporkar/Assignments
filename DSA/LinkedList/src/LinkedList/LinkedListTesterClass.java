@@ -1,19 +1,16 @@
 package LinkedList;
 
-import java.util.LinkedList;
-import java.util.List;
 
 public class LinkedListTesterClass {
 	public static void main(String[] args) {
-		linkedlistss list = (linkedlistss) new LinkedList();
+		LinkedLists list = new LinkedLists();
 		list.insertAtbeginning(90);
 		list.insertAtend(80);
-		list.insertAtposition(0, 20);
-		list.insertAtposition(2, 40);
+		list.insertAtposition(20, 0);
+		list.insertAtposition(40, 2);
 		
-		System.out.println(list);
 		list.deleteFromBeginning();
 		
-		System.out.println(list);
+		list.printList(2);
 	}
 }
